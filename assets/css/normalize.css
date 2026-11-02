@@ -1,5 +1,4 @@
-div{
-    width: 100%;
+.top{
     height: 140px;
     background-color: var(--topbg-color);
     padding-left: 70px;
@@ -7,9 +6,62 @@ div{
     align-items: center;
     >a{
         margin-inline: 10px;
-        border: 2px solid red;
         color: #243846;
         font-family: var(--font-family);
         font-size: 15px;
     }
+    /* end of top part */
+}
+
+/* Hero part */
+.Hero{
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--HERO-bg-color);
+    border: 1px solid red;
+    display: flex;
+    gap: 20px;
+    .vertical-part{
+        margin-left: 5%;
+        width: 18%;
+        min-height: 500px;
+        border: 2px solid red;
+        >h2{
+            height: 50px;
+            border-bottom: 1px solid #e5e5e5;
+            font-size: 20px;
+            color: #243846;
+            font-weight: bold;
+            font-family: var(--font-family);
+            letter-spacing: 0.5px;
+        }
+    }
+
+    .horizental-part{
+        width: 70%;
+        min-height: 500px;
+        border: 2px solid black;
+        >h2{
+            height: 50px;
+            border-bottom: 1px solid #e5e5e5;
+            font-size: 20px;
+            color: #243846;
+            font-family: var(--font-family);
+            font-weight: bold;
+            letter-spacing: 0.5px;
+        }
+        >p{
+            font-size:15px ;
+            color:#243846 ;
+            line-height:24px ;
+            font-family: var(--font-family);
+            letter-spacing: 0.5px;
+        }
+        .contain{
+            display: flex;
+            padding-inline: 10px;
+            justify-content: space-between;
+        }
+    }
+
 }

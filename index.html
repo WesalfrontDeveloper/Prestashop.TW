@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="assets/css/master.css">
     <link rel="stylesheet" href="assets/css/normalize.css">
 </head>
@@ -14,8 +15,38 @@
         <a href="">Cookies</a>
     </div>
 
-    <section>
-        
+    <section class="Hero">
+        <div class="vertical-part" >
+            <h2>Filter By</h2>
+        </div>
+
+        <div class="horizental-part">
+            <h2>Cookies</h2>
+
+            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
+
+            <div class="contain">
+
+                <div class="window">
+                    <i class="bi bi-microsoft"></i>
+                    <i class="bi bi-list-task"></i>
+                    <span>There are 22 products.</span>
+                </div>
+
+                <div class="sort">
+                    <span>Sort by:</span>
+                    <select id="filter" v-model="selectedFilter">
+                        <option value="sales_desc"></option>
+                        <option value="relevance"></option>
+                        <option value="name_asc"></option>
+                        <option value="name_desc"></option>
+                        <option value="price_asc"></option>
+                        <option value="price_desc"></option>
+                    </select>
+                </div>
+                
+            </div>
+        </div>
     </section>
 </body>
 </html>
