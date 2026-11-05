@@ -18,6 +18,106 @@
     <section class="Hero">
         <div class="vertical-part" >
             <h2>Filter By</h2>
+            <div class="choose">
+                <h3>Size</h3>
+                <div class="first-box">
+                    <input type="checkbox">
+                    <a href="">
+                        <span>S</span>
+                        <span>(22)</span>
+                    </a>
+                </div>
+                <div class="first-box">
+                    <input type="checkbox">
+                    <a href="">
+                        <span>M</span>
+                        <span>(22)</span>
+                    </a>
+                </div>
+                <div class="first-box">
+                    <input type="checkbox">
+                    <a href="">
+                        <span>L</span>
+                        <span>(22)</span>
+                    </a>
+                </div>
+                <div class="first-box">
+                    <input type="checkbox">
+                    <a href="">
+                        <span>XL</span>
+                        <span>(22)</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="colors">
+                <h3>Color</h3>
+                <section>
+                    <div id="circle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="name-colors">
+                        <span>Gray</span>
+                        <span>(5)</span>
+                        <span>taupe</span>
+                        <span>(6)</span>
+                    </div>
+                    <!-- <div class="name-colors">
+                        
+                    </div>
+                    <div class="name-colors">
+                        <span>beige</span>
+                        <span>(4)</span>
+                    </div>
+                    <div class="name-colors">
+                        <span>red</span>
+                        <span>(5)</span>
+                    </div>
+                    <div class="name-colors">
+                        <span>black</span>
+                        <span>(3)</span>
+                    </div>
+                    <div class="name-colors">
+                        <span>camel</span>
+                        <span>(6)</span>
+                    </div>
+                    <div class="name-colors">
+                        <span>orange</span>
+                        <span>(7)</span>
+                    </div>
+                    <div class="name-colors">
+                        <span>blue</span>
+                        <span>(2)</span>
+                    </div>
+                    <div class="name-colors">
+                        <span>Green</span>
+                        <span>(13)</span>
+                    </div>
+                    <div class="name-colors">
+                        <span>yellow</span>
+                        <span>(10)</span>
+                    </div>
+                    <div class="name-colors">
+                        <span>brown</span>
+                        <span>(5)</span>
+                    </div>
+                    <div class="name-colors">
+                        <span>pink</span>
+                        <span>(1)</span>
+                    </div> -->
+                </section>
+            </div>
         </div>
 
         <div class="horizental-part">
@@ -34,18 +134,48 @@
                 </div>
 
                 <div class="sort">
-                    <span>Sort by:</span>
-                    <select id="filter" v-model="selectedFilter">
-                        <option value="sales_desc"></option>
-                        <option value="relevance"></option>
-                        <option value="name_asc"></option>
-                        <option value="name_desc"></option>
-                        <option value="price_asc"></option>
-                        <option value="price_desc"></option>
+                    <span>Sort by :</span>
+                    <select class="filter">
+                        <option value="sales_desc">Sales, highest to lowest</option>
+                        <option value="relevance">Relevance</option>
+                        <option value="name_asc">Name, A to Z</option>
+                        <option value="name_desc">Name, Z to A</option>
+                        <option value="price_asc">Price, low to high</option>
+                        <option value="price_desc">Price, high to low</option>
                     </select>
-                </div>
-                
+                </div>                
             </div>
+            <section>
+                <div>
+                    <figure>
+                        <img src="assets/images/neelum-mango-naturally-ripened-carbide.webp" alt="">
+                    </figure>
+                    <h4>true organic</h4>
+                    <p>Neelum mango naturally ripened carbide</p>
+                    <div class="star-shop">
+                        <div class="price">
+                            <span>
+                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi      bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i></span>
+                            <span id="doller">$46.00</span>
+                        </div>
+                        <div id="shop"><i class="bi bi-cart3"></i></div>
+                    </div>
+                </div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </section>
         </div>
     </section>
 </body>
