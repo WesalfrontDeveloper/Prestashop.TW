@@ -1,0 +1,22 @@
+/* https://github.com/WesalfrontDeveloper/Prestashop.TW.git */
+
+*>{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+
+}
+
+:root{
+    --topbg-color:#f7f7f7;
+    --font-family: "Quicksand", sans-serif;
+    --HERO-bg-color:#ffffff;
+}
+
